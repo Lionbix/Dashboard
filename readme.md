@@ -19,6 +19,4 @@ You can see how i worked with the file "jupyter.html". Which is basically the re
 
 Overview :
 
-![](image/1.png)
-
-![](image/2.png)
+![](image/overview.png)
