@@ -19,11 +19,11 @@ import plotly.graph_objects as go
 #-----------------------
 # POSTGRES Connexion 
 #-----------------------
-POSTGRES_ADDRESS = 'seelk-data-case-study.c4ickgvli6xi.eu-west-3.rds.amazonaws.com' 
-POSTGRES_PORT = '5432'
+POSTGRES_ADDRESS = '*****'
+POSTGRES_PORT = '*****'
 POSTGRES_USERNAME = 'guest'
-POSTGRES_PASSWORD = 'v9YjMLgyvGdH3mF7gBxgjNRFd' 
-POSTGRES_DBNAME = "casestudy"
+POSTGRES_PASSWORD = '*****'
+POSTGRES_DBNAME = '*****'
 postgres_str = ('postgresql://{username}:{password}@{ipaddress}:{port}/{dbname}'.format(username=POSTGRES_USERNAME,password=POSTGRES_PASSWORD,ipaddress=POSTGRES_ADDRESS,port=POSTGRES_PORT,dbname=POSTGRES_DBNAME))
 # Create the connection
 cnx = create_engine(postgres_str)
