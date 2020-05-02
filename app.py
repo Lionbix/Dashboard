@@ -21,7 +21,7 @@ import plotly.graph_objects as go
 #-----------------------
 POSTGRES_ADDRESS = '*****'
 POSTGRES_PORT = '*****'
-POSTGRES_USERNAME = 'guest'
+POSTGRES_USERNAME = '*****'
 POSTGRES_PASSWORD = '*****'
 POSTGRES_DBNAME = '*****'
 postgres_str = ('postgresql://{username}:{password}@{ipaddress}:{port}/{dbname}'.format(username=POSTGRES_USERNAME,password=POSTGRES_PASSWORD,ipaddress=POSTGRES_ADDRESS,port=POSTGRES_PORT,dbname=POSTGRES_DBNAME))
